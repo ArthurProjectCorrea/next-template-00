@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js Template
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15.1.6-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-First, run the development server:
+Um template robusto e pré-configurado para o desenvolvimento de aplicações modernas com Next.js, focado em produtividade, qualidade de código e automação.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Primeiros Passos (Uso do Template)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Se você acabou de criar um repositório usando este botão de **Use this template** no GitHub, siga estes passos para inicializar o seu novo projeto:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone o seu novo repositório**:
 
-## Learn More
+   ```bash
+   git clone <url-do-seu-repositorio>
+   cd <nome-do-projeto>
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instale as dependências**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Inicialize o Template**:
+   Execute o script de inicialização para configurar o seu projeto (isso atualizará o `package.json`, removerá arquivos de exemplo e preparará o ambiente):
+   ```bash
+   npm run init
+   ```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Preparação Manual (Clone Direto)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Caso você esteja apenas clonando este repositório diretamente para estudo ou uso manual, siga estes passos:
+
+1. **Instale as dependências**:
+
+   ```bash
+   npm install
+   ```
+
+2. **Suba o ambiente de desenvolvimento**:
+
+   ```bash
+   npm run dev
+   ```
+
+3. **Formatação de Código**:
+   O projeto já vem com Husky e Lint-staged. Para formatar manualmente:
+   ```bash
+   npm run format
+   ```
+
+---
+
+## ✨ Sobre este Template
+
+Este template foi projetado para seguir as melhores práticas atuais do ecossistema Next.js.
+
+### O que está incluso:
+
+- **Next.js 15+ (App Router)**: Otimizado para performance e SEO.
+- **shadcn/ui**: Componentes de UI acessíveis e totalmente customizáveis.
+- **Tailwind CSS 4**: O motor de estilização mais rápido e moderno.
+- **Qualidade de Código**:
+  - **ESLint**: Para encontrar e corrigir problemas no código.
+  - **Prettier**: Para garantir um estilo de código consistente.
+  - **Commitlint**: Garante que todas as mensagens de commit sigam o padrão [Conventional Commits](https://www.conventionalcommits.org/).
+- **Automação de Git (Husky)**:
+  - Verificação de lint e formatação no pré-commit.
+  - Validação de mensagem no commit-msg.
+  - Validação de build no pré-push.
+- **CI/CD**: Workflows de GitHub Actions configurados para integração contínua.
+
+### Diretrizes do Projeto
+
+Para garantir a integridade do template, consulte os guias na pasta `.agents/rules/`:
+
+- [Regras Next.js](.agents/rules/next-js.md)
+- [Regras shadcn/ui](.agents/rules/shandc-ui.md)
+
+---
+
+Desenvolvido com ❤️ para acelerar o seu próximo grande projeto.
