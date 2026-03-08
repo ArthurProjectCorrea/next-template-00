@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ArthurProjectCorrea/next-template-00/compare/v1.0.0...v1.0.1) (2026-03-08)
+
+### Bug Fixes
+
+- init ([e2c76ec](https://github.com/ArthurProjectCorrea/next-template-00/commit/e2c76ec8c199dcb1411fe6f65e5fcbbbfdc55522))
+
 # 1.0.0 (2026-03-06)
 
 ### Bug Fixes
