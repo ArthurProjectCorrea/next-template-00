@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/ArthurProjectCorrea/next-template-00/compare/v1.0.1...v1.1.0) (2026-03-09)
+
+### Features
+
+- add version retrieval function and update layout language to portuguese ([a558c79](https://github.com/ArthurProjectCorrea/next-template-00/commit/a558c795604c8112c19023be8d446d1b1d207741))
+
 ## [1.0.1](https://github.com/ArthurProjectCorrea/next-template-00/compare/v1.0.0...v1.0.1) (2026-03-08)
 
 ### Bug Fixes
